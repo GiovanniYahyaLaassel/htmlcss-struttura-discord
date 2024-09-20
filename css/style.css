@@ -1,0 +1,23 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+ul,li{
+    list-style: none;
+}
+.main-header{
+    background-color: rgb(12, 227, 227);
+    padding:15px 90px;   
+}
+.layout-nav{
+    /* background-color: rgb(216, 185, 9); */
+    display: flex;
+    align-items: center;
+}
+.main-list{
+    display: flex;
+    gap: 30px;
+  
+}
