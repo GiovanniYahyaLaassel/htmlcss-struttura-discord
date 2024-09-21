@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0 auto;
 }
-
+/* layout-header */
 ul,li{
     list-style: none;
 }
@@ -12,12 +12,36 @@ ul,li{
     padding:15px 90px;   
 }
 .layout-nav{
-    /* background-color: rgb(216, 185, 9); */
+     border: 2px dotted black;
+    background-color: rgb(216, 185, 9);
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .main-list{
     display: flex;
     gap: 30px;
   
 }
+/* main and section layout */
+.layout-section{
+    background-color: rgb(0, 14, 144);
+}
+.box{
+    background-color: rgb(228, 118, 215);
+    width: 350px;
+    height: 250px;
+}
+
+/* debug-rules */
+.debug .container{
+    border:  2px solid black;
+}
+.debug .row{
+    padding: 20px;
+}
+.debug .row > * {
+    border: 2px dotted black;
+    padding: 16px;
+}
+    
