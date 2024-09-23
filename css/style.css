@@ -21,27 +21,41 @@ ul,li{
 .main-list{
     display: flex;
     gap: 30px;
-  
 }
+
 /* main and section layout */
 .layout-section{
     background-color: rgb(0, 14, 144);
 }
+.bg-white{
+    background-color: white;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 .box{
     background-color: rgb(228, 118, 215);
-    width: 350px;
+    width: 650px;
     height: 250px;
+}
+.box-70{
+    background-color: rgb(103, 130, 240);
+    width: calc(100% / 3 * 2)
+    
+}
+.box-30{
+    background-color: pink;
+    width: calc(100% / 3);
 }
 
 /* debug-rules */
-.debug .container{
-    border:  2px solid black;
-}
 .debug .row{
     padding: 20px;
 }
 .debug .row > * {
     border: 2px dotted black;
     padding: 16px;
+    min-height: 300px;
 }
-    
