@@ -30,6 +30,9 @@ ul,li{
 .bg-white{
     background-color: white;
 }
+.bg-grey{
+    background-color: rgb(185, 174, 174);
+}
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -49,7 +52,18 @@ ul,li{
     background-color: pink;
     width: calc(100% / 3);
 }
-
+.box-40{
+    width: 40%;
+    background-color: rgb(219, 136, 164);
+}
+.box-15{
+    width: 15%;
+    background-color: rgb(39, 168, 132);
+}
+/* box_green */
+.green{
+    background-color: green;
+}
 /* debug-rules */
 .debug .row{
     padding: 20px;
