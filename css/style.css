@@ -60,10 +60,26 @@ ul,li{
     width: 15%;
     background-color: rgb(39, 168, 132);
 }
+
 /* box_green */
 .green{
     background-color: green;
 }
+.bg-black{
+    background-color: black;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    padding:15px 90px;  
+}
+.layout-footer{
+    background-color:  rgb(95, 223, 187);
+    display: flex;
+    justify-content: space-between;
+}
+
 /* debug-rules */
 .debug .row{
     padding: 20px;
